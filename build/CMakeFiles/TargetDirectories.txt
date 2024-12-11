@@ -1,3 +1,0 @@
-/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/embedded_startup.dir
-/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/edit_cache.dir
-/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/rebuild_cache.dir
