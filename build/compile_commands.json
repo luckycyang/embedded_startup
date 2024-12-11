@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/kfoveliang/Public/GitCell/embedded_startup/build",
+  "command": "/home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-cc -target thumb-freestanding-eabi -mcpu=cortex_m3 -o CMakeFiles/embedded_startup.dir/src/main.c.obj -c /home/kfoveliang/Public/GitCell/embedded_startup/src/main.c",
+  "file": "/home/kfoveliang/Public/GitCell/embedded_startup/src/main.c",
+  "output": "CMakeFiles/embedded_startup.dir/src/main.c.obj"
+},
+{
+  "directory": "/home/kfoveliang/Public/GitCell/embedded_startup/build",
+  "command": "/home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-cc -target thumb-freestanding-eabi -mcpu=cortex_m3 -o CMakeFiles/embedded_startup.dir/startup/startup.c.obj -c /home/kfoveliang/Public/GitCell/embedded_startup/startup/startup.c",
+  "file": "/home/kfoveliang/Public/GitCell/embedded_startup/startup/startup.c",
+  "output": "CMakeFiles/embedded_startup.dir/startup/startup.c.obj"
+}
+]

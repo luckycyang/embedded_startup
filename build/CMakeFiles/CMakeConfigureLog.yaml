@@ -1,0 +1,337 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The target system is: Generic - 1 - thumb
+      The host system is: Linux - 6.6.50-05090-g02ec56928355 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-cc -target;thumb-freestanding-eabi
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ld.lld: warning: cannot find entry symbol _start; not setting start address
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/3.30.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-c++ -target;thumb-freestanding-eabi
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ld.lld: warning: cannot find entry symbol _start; not setting start address
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/3.30.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-i5GBMT"
+      binary: "/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-i5GBMT"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-i5GBMT'
+        
+        Run Build Command(s): /nix/store/s2lws03pga0vyq84kfa6h041n8csbg4p-ninja-1.12.1/bin/ninja -v cmTC_e99f8
+        [1/2] /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-cc -target thumb-freestanding-eabi   -v -MD -MT CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -c /nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        clang version 18.1.8
+        Target: thumb-unknown-unknown-eabi
+        Thread model: posix
+        InstalledDir: /nix/store/03bq5hc45d5wkw8pajmz4vgd5s0ivyq8-clang-wrapper-18.1.8/bin
+         (in-process)
+         "/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/bin/zig" -cc1 -triple thumbv4t-unknown-unknown-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -ffreestanding -nostdsysteminc -target-cpu arm7tdmi -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs -mfloat-abi soft -Wunaligned-access -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -gdwarf32 -fdebug-compilation-dir=/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-i5GBMT -v -fcoverage-compilation-dir=/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-i5GBMT -nostdsysteminc -nobuiltininc -resource-dir /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/clang/18 -dependency-file CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -sys-header-deps -isystem /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include -D _DEBUG -source-date-epoch 315532800 -O0 -ferror-limit 19 -fsanitize=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fsanitize-trap=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fno-sanitize-memory-param-retval -fno-sanitize-address-use-odr-indicator -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fno-spell-checking -target-cpu generic -target-feature -32bit -target-feature -8msecext -target-feature -a76 -target-feature -aapcs-frame-chain -target-feature -aapcs-frame-chain-leaf -target-feature +aclass -target-feature -acquire-release -target-feature -aes -target-feature -atomics-32 -target-feature -avoid-movs-shop -target-feature -avoid-partial-cpsr -target-feature -bf16 -target-feature -big-endian-instructions -target-feature -cde -target-feature -cdecp0 -target-feature -cdecp1 -target-feature -cdecp2 -target-feature -cdecp3 -target-feature -cdecp4 -target-feature -cdecp5 -target-feature -cdecp6 -target-feature -cdecp7 -target-feature -cheap-predicable-cpsr -target-feature -clrbhb -target-feature -crc -target-feature -crypto -target-feature +d32 -target-feature +db -target-feature -dfb -target-feature -disable-postra-scheduler -target-feature -dont-widen-vmovs -target-feature -dotprod -target-feature +dsp -target-feature -execute-only -target-feature -expand-fp-mlx -target-feature -exynos -target-feature -fix-cmse-cve-2021-35465 -target-feature -fix-cortex-a57-aes-1742098 -target-feature -fp16 -target-feature -fp16fml -target-feature +fp64 -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fpao -target-feature +fpregs -target-feature -fpregs16 -target-feature +fpregs64 -target-feature -fullfp16 -target-feature -fuse-aes -target-feature -fuse-literals -target-feature -harden-sls-blr -target-feature -harden-sls-nocomdat -target-feature -harden-sls-retbr -target-feature +v4t -target-feature +v5t -target-feature +v5te -target-feature +v6 -target-feature +v6k -target-feature +v6m -target-feature +v6t2 -target-feature +v7 -target-feature +v7clrex -target-feature -v8 -target-feature -v8.1a -target-feature -v8.1m.main -target-feature -v8.2a -target-feature -v8.3a -target-feature -v8.4a -target-feature -v8.5a -target-feature -v8.6a -target-feature -v8.7a -target-feature -v8.8a -target-feature -v8.9a -target-feature +v8m -target-feature -v8m.main -target-feature -v9.1a -target-feature -v9.2a -target-feature -v9.3a -target-feature -v9.4a -target-feature -v9a -target-feature -hwdiv -target-feature -hwdiv-arm -target-feature -i8mm -target-feature -iwmmxt -target-feature -iwmmxt2 -target-feature -lob -target-feature -long-calls -target-feature -loop-align -target-feature -m3 -target-feature -mclass -target-feature -mp -target-feature -muxed-units -target-feature -mve -target-feature -mve1beat -target-feature -mve2beat -target-feature -mve4beat -target-feature -mve.fp -target-feature -nacl-trap -target-feature +neon -target-feature -neon-fpmovs -target-feature -neonfp -target-feature -no-branch-predictor -target-feature -no-bti-at-return-twice -target-feature -no-movt -target-feature -no-neg-immediates -target-feature -noarm -target-feature -nonpipelined-vfp -target-feature -pacbti -target-feature +perfmon -target-feature -prefer-ishst -target-feature -prefer-vmovsr -target-feature -prof-unpr -target-feature -r4 -target-feature -ras -target-feature -rclass -target-feature -read-tp-tpidrprw -target-feature -read-tp-tpidruro -target-feature -read-tp-tpidrurw -target-feature -reserve-r9 -target-feature -ret-addr-stack -target-feature -sb -target-feature -sha2 -target-feature -slow-fp-brcc -target-feature -slow-load-D-subreg -target-feature -slow-odd-reg -target-feature -slow-vdup32 -target-feature -slow-vgetlni32 -target-feature -slowfpvfmx -target-feature -slowfpvmlx -target-feature -soft-float -target-feature -splat-vfp-neon -target-feature -strict-align -target-feature -swift -target-feature +thumb2 -target-feature +thumb-mode -target-feature -trustzone -target-feature -use-mipipeliner -target-feature -use-misched -target-feature -armv4 -target-feature -armv4t -target-feature -armv5t -target-feature -armv5te -target-feature -armv5tej -target-feature -armv6 -target-feature -armv6j -target-feature -armv6k -target-feature -armv6kz -target-feature -armv6-m -target-feature -armv6s-m -target-feature -armv6t2 -target-feature +armv7-a -target-feature -armv7e-m -target-feature -armv7k -target-feature -armv7-m -target-feature -armv7-r -target-feature -armv7s -target-feature -armv7ve -target-feature -armv8.1-a -target-feature -armv8.1-m.main -target-feature -armv8.2-a -target-feature -armv8.3-a -target-feature -armv8.4-a -target-feature -armv8.5-a -target-feature -armv8.6-a -target-feature -armv8.7-a -target-feature -armv8.8-a -target-feature -armv8.9-a -target-feature -armv8-a -target-feature -armv8-m.base -target-feature -armv8-m.main -target-feature -armv8-r -target-feature -armv9.1-a -target-feature -armv9.2-a -target-feature -armv9.3-a -target-feature -armv9.4-a -target-feature -v9.5a -target-feature -armv9-a -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -virtualization -target-feature -vldn-align -target-feature -vmlx-forwarding -target-feature -vmlx-hazards -target-feature -wide-stride-vfp -target-feature -xscale -target-feature -zcz -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -x c /nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include
+        End of search list.
+        [2/2] : && /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-cc -target thumb-freestanding-eabi  -v CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -o cmTC_e99f8   && :
+        ld.lld --error-limit=0 --entry _start -z stack-size=16777216 --image-base=65536 --eh-frame-hdr -znow -m armelf_linux_eabi -Bstatic -o cmTC_e99f8 CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj /home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a --as-needed /home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a --allow-shlib-undefined
+        ld.lld: warning: cannot find entry symbol _start; not setting start address
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include]
+        end of search list found
+        collapse include dir [/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include] ==> [/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include]
+        implicit include dirs: [/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-i5GBMT']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nix/store/s2lws03pga0vyq84kfa6h041n8csbg4p-ninja-1.12.1/bin/ninja -v cmTC_e99f8]
+        ignore line: [[1/2] /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-cc -target thumb-freestanding-eabi   -v -MD -MT CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -c /nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 18.1.8]
+        ignore line: [Target: thumb-unknown-unknown-eabi]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/03bq5hc45d5wkw8pajmz4vgd5s0ivyq8-clang-wrapper-18.1.8/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/bin/zig" -cc1 -triple thumbv4t-unknown-unknown-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -ffreestanding -nostdsysteminc -target-cpu arm7tdmi -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs -mfloat-abi soft -Wunaligned-access -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -gdwarf32 -fdebug-compilation-dir=/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-i5GBMT -v -fcoverage-compilation-dir=/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-i5GBMT -nostdsysteminc -nobuiltininc -resource-dir /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/clang/18 -dependency-file CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -sys-header-deps -isystem /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include -D _DEBUG -source-date-epoch 315532800 -O0 -ferror-limit 19 -fsanitize=alignment array-bounds bool builtin enum float-cast-overflow integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fsanitize-trap=alignment array-bounds bool builtin enum float-cast-overflow integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fno-sanitize-memory-param-retval -fno-sanitize-address-use-odr-indicator -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fno-spell-checking -target-cpu generic -target-feature -32bit -target-feature -8msecext -target-feature -a76 -target-feature -aapcs-frame-chain -target-feature -aapcs-frame-chain-leaf -target-feature +aclass -target-feature -acquire-release -target-feature -aes -target-feature -atomics-32 -target-feature -avoid-movs-shop -target-feature -avoid-partial-cpsr -target-feature -bf16 -target-feature -big-endian-instructions -target-feature -cde -target-feature -cdecp0 -target-feature -cdecp1 -target-feature -cdecp2 -target-feature -cdecp3 -target-feature -cdecp4 -target-feature -cdecp5 -target-feature -cdecp6 -target-feature -cdecp7 -target-feature -cheap-predicable-cpsr -target-feature -clrbhb -target-feature -crc -target-feature -crypto -target-feature +d32 -target-feature +db -target-feature -dfb -target-feature -disable-postra-scheduler -target-feature -dont-widen-vmovs -target-feature -dotprod -target-feature +dsp -target-feature -execute-only -target-feature -expand-fp-mlx -target-feature -exynos -target-feature -fix-cmse-cve-2021-35465 -target-feature -fix-cortex-a57-aes-1742098 -target-feature -fp16 -target-feature -fp16fml -target-feature +fp64 -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fpao -target-feature +fpregs -target-feature -fpregs16 -target-feature +fpregs64 -target-feature -fullfp16 -target-feature -fuse-aes -target-feature -fuse-literals -target-feature -harden-sls-blr -target-feature -harden-sls-nocomdat -target-feature -harden-sls-retbr -target-feature +v4t -target-feature +v5t -target-feature +v5te -target-feature +v6 -target-feature +v6k -target-feature +v6m -target-feature +v6t2 -target-feature +v7 -target-feature +v7clrex -target-feature -v8 -target-feature -v8.1a -target-feature -v8.1m.main -target-feature -v8.2a -target-feature -v8.3a -target-feature -v8.4a -target-feature -v8.5a -target-feature -v8.6a -target-feature -v8.7a -target-feature -v8.8a -target-feature -v8.9a -target-feature +v8m -target-feature -v8m.main -target-feature -v9.1a -target-feature -v9.2a -target-feature -v9.3a -target-feature -v9.4a -target-feature -v9a -target-feature -hwdiv -target-feature -hwdiv-arm -target-feature -i8mm -target-feature -iwmmxt -target-feature -iwmmxt2 -target-feature -lob -target-feature -long-calls -target-feature -loop-align -target-feature -m3 -target-feature -mclass -target-feature -mp -target-feature -muxed-units -target-feature -mve -target-feature -mve1beat -target-feature -mve2beat -target-feature -mve4beat -target-feature -mve.fp -target-feature -nacl-trap -target-feature +neon -target-feature -neon-fpmovs -target-feature -neonfp -target-feature -no-branch-predictor -target-feature -no-bti-at-return-twice -target-feature -no-movt -target-feature -no-neg-immediates -target-feature -noarm -target-feature -nonpipelined-vfp -target-feature -pacbti -target-feature +perfmon -target-feature -prefer-ishst -target-feature -prefer-vmovsr -target-feature -prof-unpr -target-feature -r4 -target-feature -ras -target-feature -rclass -target-feature -read-tp-tpidrprw -target-feature -read-tp-tpidruro -target-feature -read-tp-tpidrurw -target-feature -reserve-r9 -target-feature -ret-addr-stack -target-feature -sb -target-feature -sha2 -target-feature -slow-fp-brcc -target-feature -slow-load-D-subreg -target-feature -slow-odd-reg -target-feature -slow-vdup32 -target-feature -slow-vgetlni32 -target-feature -slowfpvfmx -target-feature -slowfpvmlx -target-feature -soft-float -target-feature -splat-vfp-neon -target-feature -strict-align -target-feature -swift -target-feature +thumb2 -target-feature +thumb-mode -target-feature -trustzone -target-feature -use-mipipeliner -target-feature -use-misched -target-feature -armv4 -target-feature -armv4t -target-feature -armv5t -target-feature -armv5te -target-feature -armv5tej -target-feature -armv6 -target-feature -armv6j -target-feature -armv6k -target-feature -armv6kz -target-feature -armv6-m -target-feature -armv6s-m -target-feature -armv6t2 -target-feature +armv7-a -target-feature -armv7e-m -target-feature -armv7k -target-feature -armv7-m -target-feature -armv7-r -target-feature -armv7s -target-feature -armv7ve -target-feature -armv8.1-a -target-feature -armv8.1-m.main -target-feature -armv8.2-a -target-feature -armv8.3-a -target-feature -armv8.4-a -target-feature -armv8.5-a -target-feature -armv8.6-a -target-feature -armv8.7-a -target-feature -armv8.8-a -target-feature -armv8.9-a -target-feature -armv8-a -target-feature -armv8-m.base -target-feature -armv8-m.main -target-feature -armv8-r -target-feature -armv9.1-a -target-feature -armv9.2-a -target-feature -armv9.3-a -target-feature -armv9.4-a -target-feature -v9.5a -target-feature -armv9-a -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -virtualization -target-feature -vldn-align -target-feature -vmlx-forwarding -target-feature -vmlx-hazards -target-feature -wide-stride-vfp -target-feature -xscale -target-feature -zcz -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -x c /nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-cc -target thumb-freestanding-eabi  -v CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj -o cmTC_e99f8   && :]
+        link line: [ld.lld --error-limit=0 --entry _start -z stack-size=16777216 --image-base=65536 --eh-frame-hdr -znow -m armelf_linux_eabi -Bstatic -o cmTC_e99f8 CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj /home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a --as-needed /home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a --allow-shlib-undefined]
+          arg [ld.lld] ==> ignore
+          arg [--error-limit=0] ==> ignore
+          arg [--entry] ==> ignore
+          arg [_start] ==> ignore
+          arg [-zstack-size=16777216] ==> ignore
+          arg [--image-base=65536] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-o] ==> ignore
+          arg [cmTC_e99f8] ==> ignore
+          arg [CMakeFiles/cmTC_e99f8.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [/home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a] ==> lib [/home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a]
+          arg [--as-needed] ==> ignore
+          arg [/home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a] ==> lib [/home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a]
+          arg [--allow-shlib-undefined] ==> ignore
+        linker tool for 'C': ld.lld
+        implicit libs: [/home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a;/home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a]
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the C compiler's linker: "ld.lld" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the C compiler's linker: "ld.lld" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the C compiler's linker: "ld.lld" "--version"
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-GmzjFI"
+      binary: "/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-GmzjFI"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-GmzjFI'
+        
+        Run Build Command(s): /nix/store/s2lws03pga0vyq84kfa6h041n8csbg4p-ninja-1.12.1/bin/ninja -v cmTC_26fb7
+        [1/2] /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-c++ -target thumb-freestanding-eabi   -v -MD -MT CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -c /nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        clang version 18.1.8
+        Target: thumb-unknown-unknown-eabi
+        Thread model: posix
+        InstalledDir: /nix/store/03bq5hc45d5wkw8pajmz4vgd5s0ivyq8-clang-wrapper-18.1.8/bin
+         (in-process)
+         "/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/bin/zig" -cc1 -triple thumbv4t-unknown-unknown-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -ffreestanding -nostdsysteminc -target-cpu arm7tdmi -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs -mfloat-abi soft -Wunaligned-access -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -gdwarf32 -fdebug-compilation-dir=/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-GmzjFI -v -fcoverage-compilation-dir=/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-GmzjFI -nostdsysteminc -nobuiltininc -resource-dir /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/clang/18 -dependency-file CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -isystem /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include -D _DEBUG -source-date-epoch 315532800 -O0 -fdeprecated-macro -ferror-limit 19 -fsanitize=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fsanitize-trap=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound -fno-sanitize-memory-param-retval -fno-sanitize-address-use-odr-indicator -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fno-spell-checking -target-cpu generic -target-feature -32bit -target-feature -8msecext -target-feature -a76 -target-feature -aapcs-frame-chain -target-feature -aapcs-frame-chain-leaf -target-feature +aclass -target-feature -acquire-release -target-feature -aes -target-feature -atomics-32 -target-feature -avoid-movs-shop -target-feature -avoid-partial-cpsr -target-feature -bf16 -target-feature -big-endian-instructions -target-feature -cde -target-feature -cdecp0 -target-feature -cdecp1 -target-feature -cdecp2 -target-feature -cdecp3 -target-feature -cdecp4 -target-feature -cdecp5 -target-feature -cdecp6 -target-feature -cdecp7 -target-feature -cheap-predicable-cpsr -target-feature -clrbhb -target-feature -crc -target-feature -crypto -target-feature +d32 -target-feature +db -target-feature -dfb -target-feature -disable-postra-scheduler -target-feature -dont-widen-vmovs -target-feature -dotprod -target-feature +dsp -target-feature -execute-only -target-feature -expand-fp-mlx -target-feature -exynos -target-feature -fix-cmse-cve-2021-35465 -target-feature -fix-cortex-a57-aes-1742098 -target-feature -fp16 -target-feature -fp16fml -target-feature +fp64 -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fpao -target-feature +fpregs -target-feature -fpregs16 -target-feature +fpregs64 -target-feature -fullfp16 -target-feature -fuse-aes -target-feature -fuse-literals -target-feature -harden-sls-blr -target-feature -harden-sls-nocomdat -target-feature -harden-sls-retbr -target-feature +v4t -target-feature +v5t -target-feature +v5te -target-feature +v6 -target-feature +v6k -target-feature +v6m -target-feature +v6t2 -target-feature +v7 -target-feature +v7clrex -target-feature -v8 -target-feature -v8.1a -target-feature -v8.1m.main -target-feature -v8.2a -target-feature -v8.3a -target-feature -v8.4a -target-feature -v8.5a -target-feature -v8.6a -target-feature -v8.7a -target-feature -v8.8a -target-feature -v8.9a -target-feature +v8m -target-feature -v8m.main -target-feature -v9.1a -target-feature -v9.2a -target-feature -v9.3a -target-feature -v9.4a -target-feature -v9a -target-feature -hwdiv -target-feature -hwdiv-arm -target-feature -i8mm -target-feature -iwmmxt -target-feature -iwmmxt2 -target-feature -lob -target-feature -long-calls -target-feature -loop-align -target-feature -m3 -target-feature -mclass -target-feature -mp -target-feature -muxed-units -target-feature -mve -target-feature -mve1beat -target-feature -mve2beat -target-feature -mve4beat -target-feature -mve.fp -target-feature -nacl-trap -target-feature +neon -target-feature -neon-fpmovs -target-feature -neonfp -target-feature -no-branch-predictor -target-feature -no-bti-at-return-twice -target-feature -no-movt -target-feature -no-neg-immediates -target-feature -noarm -target-feature -nonpipelined-vfp -target-feature -pacbti -target-feature +perfmon -target-feature -prefer-ishst -target-feature -prefer-vmovsr -target-feature -prof-unpr -target-feature -r4 -target-feature -ras -target-feature -rclass -target-feature -read-tp-tpidrprw -target-feature -read-tp-tpidruro -target-feature -read-tp-tpidrurw -target-feature -reserve-r9 -target-feature -ret-addr-stack -target-feature -sb -target-feature -sha2 -target-feature -slow-fp-brcc -target-feature -slow-load-D-subreg -target-feature -slow-odd-reg -target-feature -slow-vdup32 -target-feature -slow-vgetlni32 -target-feature -slowfpvfmx -target-feature -slowfpvmlx -target-feature -soft-float -target-feature -splat-vfp-neon -target-feature -strict-align -target-feature -swift -target-feature +thumb2 -target-feature +thumb-mode -target-feature -trustzone -target-feature -use-mipipeliner -target-feature -use-misched -target-feature -armv4 -target-feature -armv4t -target-feature -armv5t -target-feature -armv5te -target-feature -armv5tej -target-feature -armv6 -target-feature -armv6j -target-feature -armv6k -target-feature -armv6kz -target-feature -armv6-m -target-feature -armv6s-m -target-feature -armv6t2 -target-feature +armv7-a -target-feature -armv7e-m -target-feature -armv7k -target-feature -armv7-m -target-feature -armv7-r -target-feature -armv7s -target-feature -armv7ve -target-feature -armv8.1-a -target-feature -armv8.1-m.main -target-feature -armv8.2-a -target-feature -armv8.3-a -target-feature -armv8.4-a -target-feature -armv8.5-a -target-feature -armv8.6-a -target-feature -armv8.7-a -target-feature -armv8.8-a -target-feature -armv8.9-a -target-feature -armv8-a -target-feature -armv8-m.base -target-feature -armv8-m.main -target-feature -armv8-r -target-feature -armv9.1-a -target-feature -armv9.2-a -target-feature -armv9.3-a -target-feature -armv9.4-a -target-feature -v9.5a -target-feature -armv9-a -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -virtualization -target-feature -vldn-align -target-feature -vmlx-forwarding -target-feature -vmlx-hazards -target-feature -wide-stride-vfp -target-feature -xscale -target-feature -zcz -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -x c++ /nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include
+        End of search list.
+        [2/2] : && /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-c++ -target thumb-freestanding-eabi  -v CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_26fb7   && :
+        ld.lld --error-limit=0 --entry _start -z stack-size=16777216 --image-base=65536 --eh-frame-hdr -znow -m armelf_linux_eabi -Bstatic -o cmTC_26fb7 CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj /home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a --as-needed /home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a --allow-shlib-undefined
+        ld.lld: warning: cannot find entry symbol _start; not setting start address
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include]
+        end of search list found
+        collapse include dir [/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include] ==> [/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include]
+        implicit include dirs: [/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-GmzjFI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nix/store/s2lws03pga0vyq84kfa6h041n8csbg4p-ninja-1.12.1/bin/ninja -v cmTC_26fb7]
+        ignore line: [[1/2] /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-c++ -target thumb-freestanding-eabi   -v -MD -MT CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -c /nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 18.1.8]
+        ignore line: [Target: thumb-unknown-unknown-eabi]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/03bq5hc45d5wkw8pajmz4vgd5s0ivyq8-clang-wrapper-18.1.8/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/bin/zig" -cc1 -triple thumbv4t-unknown-unknown-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -ffreestanding -nostdsysteminc -target-cpu arm7tdmi -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs -mfloat-abi soft -Wunaligned-access -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -gdwarf32 -fdebug-compilation-dir=/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-GmzjFI -v -fcoverage-compilation-dir=/home/kfoveliang/Public/GitCell/embedded_startup/build/CMakeFiles/CMakeScratch/TryCompile-GmzjFI -nostdsysteminc -nobuiltininc -resource-dir /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/clang/18 -dependency-file CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -isystem /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include -D _DEBUG -source-date-epoch 315532800 -O0 -fdeprecated-macro -ferror-limit 19 -fsanitize=alignment array-bounds bool builtin enum float-cast-overflow integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fsanitize-trap=alignment array-bounds bool builtin enum float-cast-overflow integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound -fno-sanitize-memory-param-retval -fno-sanitize-address-use-odr-indicator -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fno-spell-checking -target-cpu generic -target-feature -32bit -target-feature -8msecext -target-feature -a76 -target-feature -aapcs-frame-chain -target-feature -aapcs-frame-chain-leaf -target-feature +aclass -target-feature -acquire-release -target-feature -aes -target-feature -atomics-32 -target-feature -avoid-movs-shop -target-feature -avoid-partial-cpsr -target-feature -bf16 -target-feature -big-endian-instructions -target-feature -cde -target-feature -cdecp0 -target-feature -cdecp1 -target-feature -cdecp2 -target-feature -cdecp3 -target-feature -cdecp4 -target-feature -cdecp5 -target-feature -cdecp6 -target-feature -cdecp7 -target-feature -cheap-predicable-cpsr -target-feature -clrbhb -target-feature -crc -target-feature -crypto -target-feature +d32 -target-feature +db -target-feature -dfb -target-feature -disable-postra-scheduler -target-feature -dont-widen-vmovs -target-feature -dotprod -target-feature +dsp -target-feature -execute-only -target-feature -expand-fp-mlx -target-feature -exynos -target-feature -fix-cmse-cve-2021-35465 -target-feature -fix-cortex-a57-aes-1742098 -target-feature -fp16 -target-feature -fp16fml -target-feature +fp64 -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fpao -target-feature +fpregs -target-feature -fpregs16 -target-feature +fpregs64 -target-feature -fullfp16 -target-feature -fuse-aes -target-feature -fuse-literals -target-feature -harden-sls-blr -target-feature -harden-sls-nocomdat -target-feature -harden-sls-retbr -target-feature +v4t -target-feature +v5t -target-feature +v5te -target-feature +v6 -target-feature +v6k -target-feature +v6m -target-feature +v6t2 -target-feature +v7 -target-feature +v7clrex -target-feature -v8 -target-feature -v8.1a -target-feature -v8.1m.main -target-feature -v8.2a -target-feature -v8.3a -target-feature -v8.4a -target-feature -v8.5a -target-feature -v8.6a -target-feature -v8.7a -target-feature -v8.8a -target-feature -v8.9a -target-feature +v8m -target-feature -v8m.main -target-feature -v9.1a -target-feature -v9.2a -target-feature -v9.3a -target-feature -v9.4a -target-feature -v9a -target-feature -hwdiv -target-feature -hwdiv-arm -target-feature -i8mm -target-feature -iwmmxt -target-feature -iwmmxt2 -target-feature -lob -target-feature -long-calls -target-feature -loop-align -target-feature -m3 -target-feature -mclass -target-feature -mp -target-feature -muxed-units -target-feature -mve -target-feature -mve1beat -target-feature -mve2beat -target-feature -mve4beat -target-feature -mve.fp -target-feature -nacl-trap -target-feature +neon -target-feature -neon-fpmovs -target-feature -neonfp -target-feature -no-branch-predictor -target-feature -no-bti-at-return-twice -target-feature -no-movt -target-feature -no-neg-immediates -target-feature -noarm -target-feature -nonpipelined-vfp -target-feature -pacbti -target-feature +perfmon -target-feature -prefer-ishst -target-feature -prefer-vmovsr -target-feature -prof-unpr -target-feature -r4 -target-feature -ras -target-feature -rclass -target-feature -read-tp-tpidrprw -target-feature -read-tp-tpidruro -target-feature -read-tp-tpidrurw -target-feature -reserve-r9 -target-feature -ret-addr-stack -target-feature -sb -target-feature -sha2 -target-feature -slow-fp-brcc -target-feature -slow-load-D-subreg -target-feature -slow-odd-reg -target-feature -slow-vdup32 -target-feature -slow-vgetlni32 -target-feature -slowfpvfmx -target-feature -slowfpvmlx -target-feature -soft-float -target-feature -splat-vfp-neon -target-feature -strict-align -target-feature -swift -target-feature +thumb2 -target-feature +thumb-mode -target-feature -trustzone -target-feature -use-mipipeliner -target-feature -use-misched -target-feature -armv4 -target-feature -armv4t -target-feature -armv5t -target-feature -armv5te -target-feature -armv5tej -target-feature -armv6 -target-feature -armv6j -target-feature -armv6k -target-feature -armv6kz -target-feature -armv6-m -target-feature -armv6s-m -target-feature -armv6t2 -target-feature +armv7-a -target-feature -armv7e-m -target-feature -armv7k -target-feature -armv7-m -target-feature -armv7-r -target-feature -armv7s -target-feature -armv7ve -target-feature -armv8.1-a -target-feature -armv8.1-m.main -target-feature -armv8.2-a -target-feature -armv8.3-a -target-feature -armv8.4-a -target-feature -armv8.5-a -target-feature -armv8.6-a -target-feature -armv8.7-a -target-feature -armv8.8-a -target-feature -armv8.9-a -target-feature -armv8-a -target-feature -armv8-m.base -target-feature -armv8-m.main -target-feature -armv8-r -target-feature -armv9.1-a -target-feature -armv9.2-a -target-feature -armv9.3-a -target-feature -armv9.4-a -target-feature -v9.5a -target-feature -armv9-a -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -virtualization -target-feature -vldn-align -target-feature -vmlx-forwarding -target-feature -vmlx-hazards -target-feature -wide-stride-vfp -target-feature -xscale -target-feature -zcz -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -x c++ /nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/v9xybfsc2iyfd602s192pymyrrncni0n-zig-0.13.0/lib/zig/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/kfoveliang/Public/GitCell/embedded_startup/zig-cross/cmake/zig-c++ -target thumb-freestanding-eabi  -v CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_26fb7   && :]
+        link line: [ld.lld --error-limit=0 --entry _start -z stack-size=16777216 --image-base=65536 --eh-frame-hdr -znow -m armelf_linux_eabi -Bstatic -o cmTC_26fb7 CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj /home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a --as-needed /home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a --allow-shlib-undefined]
+          arg [ld.lld] ==> ignore
+          arg [--error-limit=0] ==> ignore
+          arg [--entry] ==> ignore
+          arg [_start] ==> ignore
+          arg [-zstack-size=16777216] ==> ignore
+          arg [--image-base=65536] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-o] ==> ignore
+          arg [cmTC_26fb7] ==> ignore
+          arg [CMakeFiles/cmTC_26fb7.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [/home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a] ==> lib [/home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a]
+          arg [--as-needed] ==> ignore
+          arg [/home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a] ==> lib [/home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a]
+          arg [--allow-shlib-undefined] ==> ignore
+        linker tool for 'CXX': ld.lld
+        implicit libs: [/home/kfoveliang/.cache/zig/o/1466f59c51a8fd0220796a8ce951c9d0/libc.a;/home/kfoveliang/.cache/zig/o/68268849a40a243f77d0807ddef51348/libcompiler_rt.a]
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the CXX compiler's linker: "ld.lld" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the CXX compiler's linker: "ld.lld" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nix/store/4k2h9qsps52n1v56zq03yi67dwmxa81i-cmake-3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the CXX compiler's linker: "ld.lld" "--version"
+      
+...

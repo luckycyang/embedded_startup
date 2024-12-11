@@ -1,0 +1,8 @@
+# ninja log v6
+1	75	1733904432506078203	CMakeFiles/embedded_startup.dir/src/main.c.obj	af0fc075ba279f55
+3	76	1733904432508078203	CMakeFiles/embedded_startup.dir/startup/startup.c.obj	4c8e2fdcce05d26e
+76	97	1733904432581078205	embedded_startup	3da7bcda571d4bff
+1	38	1733904503310080416	CMakeFiles/embedded_startup.dir/startup/startup.c.obj	4c8e2fdcce05d26e
+38	58	1733904503347080417	embedded_startup	3da7bcda571d4bff
+4	118	1733904584184083145	CMakeFiles/embedded_startup.dir/startup/startup.c.obj	4c8e2fdcce05d26e
+118	141	1733904584298083149	embedded_startup	3da7bcda571d4bff
